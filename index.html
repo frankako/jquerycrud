@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="vieport" content="width=device-width, initial-scale=1.0" />
+<!--Boostrap css cdn-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!--google font-->
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<!--custom css-->
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!--css animate animation-->
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<!--Remove error icon-->
+<link rel="shortcut icon" type="text/css" href="#">
+	<title>Home Js</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="container">
+ 	       <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="javascript:void(0)">JQUERY</a>
+       </nav>
+    </div>
+</div>
+
+<div class="container-fluid">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-sm-6" id="forUpdate">
+				 <div class="card border-0 mtop-30" id="incidentForm">
+				 	 <div class="card-header text-center">
+				 	 	<h4>Incident Form</h4>
+				 	 </div>
+				 	 <div class="card-body">
+				 	 	<form method="POST" id="incident_form" action="">
+					<div class="form-group">
+						<label for="fname"><b>First Name</b></label>
+						<input type="text" id="fname" name="fname" placeholder="Enter First Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="lname"><b>Last Name</b></label>
+						<input type="text" id="lname" name="lname" placeholder="Enter Last Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="teamName"><b>Team Name</b></label>
+						<input type="text" id="teamName" name="teamName" placeholder="Enter Team Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label for="incident"><b>Incident</b></label>
+						<textarea id="incident" name="incident" class="form-control"></textarea>
+					</div>
+					<div class="form-group">
+						<label><b>Time Spent</b> <small>in Mins</small></label>
+						<input type="text" id="timeSpent" name="timeSpent" placeholder="Enter Time Spent" class="form-control">
+					</div>
+					<div class="form-group">
+						<button class = "btn btn-success" type="submit" name="submitButton">Submit Incident</button>
+					</div>
+				</form>
+				 	 </div>
+				 </div>
+			</div>
+			<div class="col-sm-8" id="postSection">
+				<div class="card border-0" id="mtop-10">
+					<div class="card-body" id="displayResult">
+					   
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<!--Jquery minified-->
+<script type="text/javascript" src="assets/js/node_modules/jquery/dist/jquery.min.js"></script>
+<!--Boostrap javascript cdns-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--custom JQuery-->
+<script type="text/javascript" src="assets/js/create.js"></script>
+<script type="text/javascript" src="assets/js/read.js"></script>
+<script type="text/javascript" src="assets/js/edit.js"></script>
+<script type="text/javascript" src="assets/js/update.js"></script>
+<script type="text/javascript" src="assets/js/delete.js"></script>
+<!--Boostrap notification cdn-->
+<script type="text/javascript" src="assets/js/bootstrap-notify.min.js"></script>
+
+</body>
+</html>
+
